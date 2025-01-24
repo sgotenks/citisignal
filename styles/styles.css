@@ -14,8 +14,9 @@
 
  :root {
   /*--primary-color: #8821f4;*/
-  --primary-color: rgb(179, 10, 1);
-  --secondary-color: #3C1268;
+  --primary-color: #D30100;
+  /**--secondary-color: #3C1268;**/
+  --secondary-color: white;
   --button-radius: 12px;
   --border-color: #eaeaea;
 }
