@@ -6,8 +6,8 @@ import { isAuthorEnvironment, moveInstrumentation } from '../../scripts/scripts.
  * @param {Element} block
  */
 export default async function decorate(block) {
-  const aemauthorurl = getMetadata('authorurl') || '';
-  const aempublishurl = getMetadata('publishurl') || '';
+  const aemauthorurl = getMetadata('authorurl') || 'https://author-p129757-e1266090.adobeaemcloud.com';
+  const aempublishurl = getMetadata('publishurl') || 'https://publish-p129757-e1266090.adobeaemcloud.com';
   const persistedquery = '/graphql/execute.json/citisignal-one/offerByPath';
   const contentPath = block.querySelector(':scope div:nth-child(1) > div a')?.textContent?.trim();
   const variationname =
