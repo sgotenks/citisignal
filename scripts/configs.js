@@ -32,12 +32,12 @@ export const calcEnvironment = () => {
 
 function buildConfigURL(environment) {
   const env = environment || calcEnvironment();
-  let fileName = 'configs.hlx.json';
+  let fileName = 'configs.json';
   if (aemxwalk === 'false'){
     fileName = 'configs.json?sheet=prod';
   }
   if (env !== 'prod') {
-    fileName = `configs-${env}.hlx.json`;
+    fileName = `configs-${env}.json`;
   }   
   const configURL = new URL(`${window.location.origin}/${fileName}`);
   return configURL;  
