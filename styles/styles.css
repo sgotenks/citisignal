@@ -370,7 +370,8 @@ main pre {
 
 /* links */
 a:any-link {
-  color: var(--color-black-100);
+  /*color: var(--color-black-100);*/
+  color: white;
   font: var(--type-body-1-strong-font);
   letter-spacing: var(--type-body-1-strong-letter-spacing);
   text-decoration: none;
