@@ -96,7 +96,8 @@
 }
 
 .teaser a:any-link.teaser-link {
-  background-color: var(--secondary-color);
+  /*background-color: var(--secondary-color);*/
+  background-color: black;
   display: inline-block;
   padding-top: 5px;
   padding-bottom: 5px;
